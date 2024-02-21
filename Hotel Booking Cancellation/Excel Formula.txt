@@ -1,0 +1,2 @@
+Room_Status formula => =if(I2=J2,"Desired","Undesired")
+Guest_Type formula => =IF(AND(E3=2,F3=0,G3=0),"Couples",IF(AND(E3=1,F3=0,G3=0),"Single","Family"))
